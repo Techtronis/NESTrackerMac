@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C9814DF2C23750900697AE4 /* NESTrackerMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9814DE2C23750900697AE4 /* NESTrackerMacApp.swift */; };
+		1C9814E12C23750900697AE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9814E02C23750900697AE4 /* ContentView.swift */; };
+		1C9814E32C23750B00697AE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C9814E22C23750B00697AE4 /* Assets.xcassets */; };
+		1C9814E62C23750B00697AE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C9814E52C23750B00697AE4 /* Preview Assets.xcassets */; };
+		1C9814F12C23750B00697AE4 /* NESTrackerMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9814F02C23750B00697AE4 /* NESTrackerMacTests.swift */; };
+		1C9814FB2C23750B00697AE4 /* NESTrackerMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9814FA2C23750B00697AE4 /* NESTrackerMacUITests.swift */; };
+		1C9814FD2C23750B00697AE4 /* NESTrackerMacUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9814FC2C23750B00697AE4 /* NESTrackerMacUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C9814ED2C23750B00697AE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C9814D32C23750900697AE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C9814DA2C23750900697AE4;
+			remoteInfo = NESTrackerMac;
+		};
+		1C9814F72C23750B00697AE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C9814D32C23750900697AE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C9814DA2C23750900697AE4;
+			remoteInfo = NESTrackerMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C9814DB2C23750900697AE4 /* NESTrackerMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NESTrackerMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C9814DE2C23750900697AE4 /* NESTrackerMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NESTrackerMacApp.swift; sourceTree = "<group>"; };
+		1C9814E02C23750900697AE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1C9814E22C23750B00697AE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C9814E52C23750B00697AE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C9814E72C23750B00697AE4 /* NESTrackerMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NESTrackerMac.entitlements; sourceTree = "<group>"; };
+		1C9814EC2C23750B00697AE4 /* NESTrackerMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NESTrackerMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C9814F02C23750B00697AE4 /* NESTrackerMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NESTrackerMacTests.swift; sourceTree = "<group>"; };
+		1C9814F62C23750B00697AE4 /* NESTrackerMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NESTrackerMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C9814FA2C23750B00697AE4 /* NESTrackerMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NESTrackerMacUITests.swift; sourceTree = "<group>"; };
+		1C9814FC2C23750B00697AE4 /* NESTrackerMacUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NESTrackerMacUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C9814D82C23750900697AE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C9814E92C23750B00697AE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C9814F32C23750B00697AE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C9814D22C23750900697AE4 = {
+			isa = PBXGroup;
+			children = (
+				1C9814DD2C23750900697AE4 /* NESTrackerMac */,
+				1C9814EF2C23750B00697AE4 /* NESTrackerMacTests */,
+				1C9814F92C23750B00697AE4 /* NESTrackerMacUITests */,
+				1C9814DC2C23750900697AE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C9814DC2C23750900697AE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C9814DB2C23750900697AE4 /* NESTrackerMac.app */,
+				1C9814EC2C23750B00697AE4 /* NESTrackerMacTests.xctest */,
+				1C9814F62C23750B00697AE4 /* NESTrackerMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C9814DD2C23750900697AE4 /* NESTrackerMac */ = {
+			isa = PBXGroup;
+			children = (
+				1C9814DE2C23750900697AE4 /* NESTrackerMacApp.swift */,
+				1C9814E02C23750900697AE4 /* ContentView.swift */,
+				1C9814E22C23750B00697AE4 /* Assets.xcassets */,
+				1C9814E72C23750B00697AE4 /* NESTrackerMac.entitlements */,
+				1C9814E42C23750B00697AE4 /* Preview Content */,
+			);
+			path = NESTrackerMac;
+			sourceTree = "<group>";
+		};
+		1C9814E42C23750B00697AE4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1C9814E52C23750B00697AE4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1C9814EF2C23750B00697AE4 /* NESTrackerMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C9814F02C23750B00697AE4 /* NESTrackerMacTests.swift */,
+			);
+			path = NESTrackerMacTests;
+			sourceTree = "<group>";
+		};
+		1C9814F92C23750B00697AE4 /* NESTrackerMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C9814FA2C23750B00697AE4 /* NESTrackerMacUITests.swift */,
+				1C9814FC2C23750B00697AE4 /* NESTrackerMacUITestsLaunchTests.swift */,
+			);
+			path = NESTrackerMacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C9814DA2C23750900697AE4 /* NESTrackerMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C9815002C23750B00697AE4 /* Build configuration list for PBXNativeTarget "NESTrackerMac" */;
+			buildPhases = (
+				1C9814D72C23750900697AE4 /* Sources */,
+				1C9814D82C23750900697AE4 /* Frameworks */,
+				1C9814D92C23750900697AE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NESTrackerMac;
+			productName = NESTrackerMac;
+			productReference = 1C9814DB2C23750900697AE4 /* NESTrackerMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C9814EB2C23750B00697AE4 /* NESTrackerMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C9815032C23750B00697AE4 /* Build configuration list for PBXNativeTarget "NESTrackerMacTests" */;
+			buildPhases = (
+				1C9814E82C23750B00697AE4 /* Sources */,
+				1C9814E92C23750B00697AE4 /* Frameworks */,
+				1C9814EA2C23750B00697AE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C9814EE2C23750B00697AE4 /* PBXTargetDependency */,
+			);
+			name = NESTrackerMacTests;
+			productName = NESTrackerMacTests;
+			productReference = 1C9814EC2C23750B00697AE4 /* NESTrackerMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C9814F52C23750B00697AE4 /* NESTrackerMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C9815062C23750B00697AE4 /* Build configuration list for PBXNativeTarget "NESTrackerMacUITests" */;
+			buildPhases = (
+				1C9814F22C23750B00697AE4 /* Sources */,
+				1C9814F32C23750B00697AE4 /* Frameworks */,
+				1C9814F42C23750B00697AE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C9814F82C23750B00697AE4 /* PBXTargetDependency */,
+			);
+			name = NESTrackerMacUITests;
+			productName = NESTrackerMacUITests;
+			productReference = 1C9814F62C23750B00697AE4 /* NESTrackerMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C9814D32C23750900697AE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					1C9814DA2C23750900697AE4 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					1C9814EB2C23750B00697AE4 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 1C9814DA2C23750900697AE4;
+					};
+					1C9814F52C23750B00697AE4 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 1C9814DA2C23750900697AE4;
+					};
+				};
+			};
+			buildConfigurationList = 1C9814D62C23750900697AE4 /* Build configuration list for PBXProject "NESTrackerMac" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C9814D22C23750900697AE4;
+			productRefGroup = 1C9814DC2C23750900697AE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C9814DA2C23750900697AE4 /* NESTrackerMac */,
+				1C9814EB2C23750B00697AE4 /* NESTrackerMacTests */,
+				1C9814F52C23750B00697AE4 /* NESTrackerMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C9814D92C23750900697AE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C9814E62C23750B00697AE4 /* Preview Assets.xcassets in Resources */,
+				1C9814E32C23750B00697AE4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C9814EA2C23750B00697AE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C9814F42C23750B00697AE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C9814D72C23750900697AE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C9814E12C23750900697AE4 /* ContentView.swift in Sources */,
+				1C9814DF2C23750900697AE4 /* NESTrackerMacApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C9814E82C23750B00697AE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C9814F12C23750B00697AE4 /* NESTrackerMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C9814F22C23750B00697AE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C9814FD2C23750B00697AE4 /* NESTrackerMacUITestsLaunchTests.swift in Sources */,
+				1C9814FB2C23750B00697AE4 /* NESTrackerMacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C9814EE2C23750B00697AE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C9814DA2C23750900697AE4 /* NESTrackerMac */;
+			targetProxy = 1C9814ED2C23750B00697AE4 /* PBXContainerItemProxy */;
+		};
+		1C9814F82C23750B00697AE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C9814DA2C23750900697AE4 /* NESTrackerMac */;
+			targetProxy = 1C9814F72C23750B00697AE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C9814FE2C23750B00697AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C9814FF2C23750B00697AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1C9815012C23750B00697AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NESTrackerMac/NESTrackerMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NESTrackerMac/Preview Content\"";
+				DEVELOPMENT_TEAM = 8SRDS3PR6X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexjo.NESTrackerMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1C9815022C23750B00697AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NESTrackerMac/NESTrackerMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NESTrackerMac/Preview Content\"";
+				DEVELOPMENT_TEAM = 8SRDS3PR6X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexjo.NESTrackerMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1C9815042C23750B00697AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8SRDS3PR6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexjo.NESTrackerMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NESTrackerMac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NESTrackerMac";
+			};
+			name = Debug;
+		};
+		1C9815052C23750B00697AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8SRDS3PR6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexjo.NESTrackerMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NESTrackerMac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NESTrackerMac";
+			};
+			name = Release;
+		};
+		1C9815072C23750B00697AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8SRDS3PR6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexjo.NESTrackerMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = NESTrackerMac;
+			};
+			name = Debug;
+		};
+		1C9815082C23750B00697AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8SRDS3PR6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexjo.NESTrackerMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = NESTrackerMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C9814D62C23750900697AE4 /* Build configuration list for PBXProject "NESTrackerMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C9814FE2C23750B00697AE4 /* Debug */,
+				1C9814FF2C23750B00697AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C9815002C23750B00697AE4 /* Build configuration list for PBXNativeTarget "NESTrackerMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C9815012C23750B00697AE4 /* Debug */,
+				1C9815022C23750B00697AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C9815032C23750B00697AE4 /* Build configuration list for PBXNativeTarget "NESTrackerMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C9815042C23750B00697AE4 /* Debug */,
+				1C9815052C23750B00697AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C9815062C23750B00697AE4 /* Build configuration list for PBXNativeTarget "NESTrackerMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C9815072C23750B00697AE4 /* Debug */,
+				1C9815082C23750B00697AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C9814D32C23750900697AE4 /* Project object */;
+}
