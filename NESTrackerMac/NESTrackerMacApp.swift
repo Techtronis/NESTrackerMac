@@ -11,7 +11,7 @@ import SwiftUI
 struct NESTrackerMacApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainMenu(item: ConsoleList.consoles)
         }
     }
 }
